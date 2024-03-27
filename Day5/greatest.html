@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greatest Number</title>
+</head>
+<body>
+    <script type="text/javascript">
+    //    let a= parseInt(prompt("enter first number:"))
+    //    let b=parseInt(prompt("enter second number:"))
+    //    let c=parseInt(prompt("enter third number:"))
+    //    if(a>b & a>c){
+    //     document.write(a +"is greatest")
+    //    }
+    //     else if(b>a & b>c){
+    //         document.write(b +"is greatest")
+    //     }
+    //     else{
+    //         document.write(c +"is greatest")
+    //     }
+        function maxnum(num1, num2, num3){
+            
+            if(num1>num2 & num1>num3){
+             return num1+"is greatest"
+
+            }
+            else if(num2>num3 & num2>num1){
+                return num2+"is greatest"
+            
+        
+            }
+            else{
+                return num3+"is greatest"
+            }
+        }
+        let numbers=[]
+        
+        for(let z=1;z<=3;z++)
+        {
+            numbers.push(parseInt(prompt("enter number:")))
+
+            
+        }
+        document.write(maxnum(numbers[0], numbers[1], numbers[2]));
+    
+       
+
+
+
+    </script>
+    
+</body>
+</html>
