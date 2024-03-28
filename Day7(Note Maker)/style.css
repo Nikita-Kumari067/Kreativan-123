@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: pink; */
+    height: 100vh;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.nav_elements {
+    display: flex;
+
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    width: 400px;
+    padding: 0.5rem;
+
+}
+
+.nav_elements a {
+    text-decoration: none;
+    color: white;
+
+
+
+}
+
+.left {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    width: 70%;
+
+}
+
+.logo img {
+
+    height: 65px;
+    width: 110px;
+    border-radius: 4px;
+    padding: 0.5rem;
+}
+
+.right {
+
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 30%;
+    height: 90px;
+}
+
+/* /* .login{
+    /* background-color: brown;  */
+/* align-items:
+    height:30px;
+    width:60px;   
+ }*/
+
+.login a {
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+    background-color: brown;
+
+
+}
+
+/* .logo1 img{
+    height:32px;
+    width:40px;
+ } */
+.content {
+    display: flex;
+
+
+}
+
+.leftbody {
+
+    background-color: azure;
+    width: 35%;
+    height: 100vh;
+
+
+}
+
+
+
+.middlebody {
+    background-color: bisque;
+    width: 35%;
+    height: 100vh;
+
+}
+
+.rightbody {
+    background-color: whitesmoke;
+    width: 30%;
+    height: 100vh;
+
+}
