@@ -24,7 +24,7 @@ body {
     align-items: center;
     height: 50px;
     width: 400px;
-    padding: 0.5rem;
+    padding: 0.7rem;
 
 }
 
@@ -74,7 +74,10 @@ body {
     color: white;
     border: 2px solid white;
     border-radius: 30px;
-    background-color: brown;
+    background-color: black;
+    height: 50px;
+    width: 400px;
+    padding: 0.7rem;
 
 
 }
@@ -85,17 +88,42 @@ body {
  } */
 .content {
     display: flex;
+    flex-direction: row;
+
 
 
 }
 
 .leftbody {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+
+
 
     background-color: azure;
     width: 35%;
     height: 100vh;
 
 
+}
+.leftbody a{
+    text-decoration: none;
+    font-size: x-large;
+    border: 5px solid black;
+    border-radius: 10px;
+
+
+    
+    
+
+
+}
+.create{
+    margin-top: 80px;
+}
+.up{
+    margin-top: 200px;
 }
 
 
@@ -106,10 +134,42 @@ body {
     height: 100vh;
 
 }
+.word{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size:xx-large;
+    flex-wrap: wrap;
+    margin-top: 200px;
+    
+
+}
 
 .rightbody {
+    
+    display: flex;
+    flex-direction: column;
+    align-items:center;
     background-color: whitesmoke;
     width: 30%;
     height: 100vh;
+
+}
+.rightbody a{
+    text-decoration: none;
+    font-size: x-large;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+.read{
+    margin-top:80px;
+}
+.delete{
+    margin-top: 200px;
+}
+@media(max-width:514px){
+    
+
+
 
 }
