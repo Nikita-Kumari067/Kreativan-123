@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+body{
+   
+    height:100%;
+    width:100%;
+}
+    
+.navbar{
+    height:300ppx;
+    background-color:skyblue;
+    justify-content: space-between;
+
+
+}
+.nav-logo img{
+    height:80px;
+    width:80px;
+    border-radius: 60px;
+    padding:10px;
+    box-shadow: 5px 5px;
+   
+}
+
+
+.nav_elements{
+    display:flex;
+    
+
+
+    /* background-color: brown; */
+    margin-left:50px;
+
+}
+.home{
+    text-decoration: none;
+    padding:30px;
+    color: pink;
+    font-size: 30px;
+    
+    
+    
+}
+.About{
+    text-decoration: none;
+    padding:30px;
+    color: pink;
+    font-size: 30px;
+    
+}
+.service{
+    text-decoration: none;
+    padding:30px;
+    color: pink;
+    font-size: 30px;
+    
+}
+.contact{
+    text-decoration: none;
+    padding:30px;
+    color: pink;
+    font-size: 30px;
+    
+}
+
+.navbar{
+        display:flex;
+    }
+
+.fa-solid{
+    padding: 30px;
+    /* border: 2px solid white; */
+    /* background-color: green; */
+    margin-right: 50px;
+    
+} 
+.bckgrnd{
+    background-image: url("pngtree-3d-laptop-on-digital-marketing-landing-page-image_3789158.jpg");
+    /* background-size: cover; */
+    
+    width:2000px;
+    height:300px;
+    opacity:0.6;
+
+
+}
+/* .content{
+    margin:10px;
+    
+} */
+.button{
+    margin-left: 250px;
+    margin-top: 230px;
+}
+.button:hover{
+    background-color: brown;
+
+}
+.content{
+    display:flex;
+    
+}
+.new img{
+    filter:grayscale(100%);
+    margin-left: 300px;
+    /* width: 900px; */
+    /* height: auto; */
+    
+
+}
+.new img:hover{
+    filter: grayscale(0%);
+}
+/* h1{
+    text-align: center;
+
+} */
+.time{
+    border-collapse: collapse;
+    /* margin:20px auto; */
+    background-color: #fff;
+    border:2px solid #dee2e6;
+    box-shadow:0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+th,td{
+    border:1px solid #dee2e6;
+    padding:10px;
+    text-align: center;
+}
+
+th{
+    background-color: #f2f2f2;
+    color:#343a40;
+}
+.highlight{
+    background-color: #f8f9fa;
+}
+.special{
+    background-color: #f0f0f0;
+}
+.box{
+    display:flex;
+
+}
+.olstyle{
+    margin:35px;
+}
+.end{
+    background-color: pink;
+    color: black;
+    
+}
+
+/* .circle{
+    
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+    border:2px solid black;
+    border-radius: 8px;
+    height:100px;
+    width:100px;
+    
+
+}
+box:hover{
+    transform: rotate(360deg);
+} */
+
+
+
