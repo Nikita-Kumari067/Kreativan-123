@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    height:100%;
+    
     width:100%;
 }
 
@@ -198,7 +198,8 @@ word-spacing:5px;
     justify-content:center;
     flex-direction: column;
     z-index:2;
-    margin-left:30px;
+    margin-left:50px;
+    gap: 15px;
     
 }
 .faqs{
@@ -326,11 +327,12 @@ word-spacing:5px;
 .ser_vice h4{
     margin-top: 10px;
 }
-.web{
+.field{
     font-size: 16px;
     font-family:Inter, Arial, Helvetica, sans-serif;
     color:#00bbee;
     font-weight: bold;
+    box-sizing: border-box;
 
 }
 
@@ -350,15 +352,14 @@ word-spacing:5px;
     font-size:16px;
 
 }
-.web{
-    color: #00bbee;
-    box-sizing: border-box;
-}
-.ser_vice{
+
+.ser{
     width:190px;
     height:332.4px;
+    margin-top: 40px;
+  
 }
-.ser_vice a{
+.ser a{
     text-decoration: none;  
       
 }
@@ -367,7 +368,7 @@ word-spacing:5px;
     /* font-size: 12pt; */
     font-family: Inter, Arial, Helvetica, sans-serif;
     
-    font-size: 12pt;
+    font-size: 11pt;
     margin-top: 10px;
     margin-bottom: 12px;
     color:#00bbee;
@@ -384,12 +385,13 @@ word-spacing:5px;
 }
 .cont{
     /* margin-left: 120px; */
-    
+        margin-top: 2px;
         display:flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
         width:200px;
+        
       
         
         
@@ -510,6 +512,9 @@ word-spacing:5px;
 }
 
 
+.video{
+    margin-right: 25px;
+}
 
 
 
