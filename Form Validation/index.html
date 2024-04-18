@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>Registration Form</h2>
+    <form class="form-container" name="myform" onsubmit="return validateForm()" method="post">
+        <div class="credentials">
+            <div class="cred" id="name">
+                <label>Username</label>
+                <input type="text" name="fname" placeholder="Enter your name"><b><span class="formerror"></span></b>
+            </div>
+
+            <div class="cred" id="number">
+                <label>Mobile No.</label>
+                <input type="number" name="fmobile" placeholder="Enter your mobile no."><b><span class="formerror"></span></b>
+            </div>
+
+            <div class="cred" id="email">
+                <label>Email</label>
+                <input type="email" name="femail" placeholder="Enter your email"><b><span class="formerror"></span></b>
+            </div>
+
+
+            <div class="cred" id="pass">
+
+
+
+                <label>Password</label>
+                <input type="password" name="fpass" placeholder="Enter your password"><b><span class="formerror"></span></b>
+
+            </div>
+            <div class="cred" id="cpass">
+
+                <label>Confirm-Password</label>
+                <input type="password" name="fcpass" placeholder="Enter your conf password"><b><span class="formerror"></span></b>
+
+            </div>
+        </div>
+
+
+        <div class="butt">
+            <input type="submit" class="but_sub" value="submit">
+        </div>
+
+
+
+      
+
+    </form>
+ 
+
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
