@@ -1,22 +1,18 @@
-
 import './App.css';
-import Title from "./Title.jsx";
+import Producttab from './Producttab';
+
 
 
 
 
 function App() {
   
-  return (
-  <div>
-<Title/>
-<h1>Hello world!</h1>
-<h2>What are you doing?</h2>
+  return(
+    <Producttab/>
+  );
 
-  </div>
-  )
 
-  
+ 
 }
 
-export default App
+export default App;
