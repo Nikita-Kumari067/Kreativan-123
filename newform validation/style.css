@@ -1,0 +1,27 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color: black;
+}
+
+.credentials{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+}
+.bar{
+    width:500px;
+}
+.submit{
+    margin-left: 20px;
+}
+
+
+
+
+
+   
+   
+    
+
