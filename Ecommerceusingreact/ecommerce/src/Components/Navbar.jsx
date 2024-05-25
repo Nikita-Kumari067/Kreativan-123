@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { CiHeart } from "react-icons/ci";
 
 export default function Navbar() {
     return (
@@ -7,8 +8,7 @@ export default function Navbar() {
                 <Link to="/">
                     <img src="./images/logo.png"
                         alt="my logo"
-                        className="h-12"
-                    />
+                        className="h-12" />
                 </Link>
             </div>
 
@@ -43,13 +43,17 @@ export default function Navbar() {
 
                 </div>
                 <div>
+                <Link to="/">
                     <i className="fa-solid fa-cart-plus"></i>
+                    </Link>
                 </div>
                 <div>
-                <i className="fa-solid fa-bars hidden"></i>
-                
+                    <Link to="/">
+                        <CiHeart />
+                    </Link>
+
                 </div>
-                
+
             </div>
         </div>
 
