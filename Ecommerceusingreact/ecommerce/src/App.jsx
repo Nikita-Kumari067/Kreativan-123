@@ -5,9 +5,9 @@ import About from './Pages/About';
 import Product from './Pages/Product';
 import Contact from './Pages/Contact';
 import Cart from './Pages/Cart';
-import Error from './Pages/Error';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
+import Wishlist from './Pages/Wishlist';
 
 
 
@@ -22,7 +22,8 @@ function App() {
         <Route path='/product' element={<Product />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/cart' element={<Cart />} />
-        <Route path='*' element={<Error />} />
+        <Route path='/wishlist' element={<Wishlist/>} />
+       
       </Routes>
       <Footer/>
     </Router>

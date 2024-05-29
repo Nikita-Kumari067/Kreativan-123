@@ -1,8 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { CiHeart } from 'react-icons/ci';
+import { useSelector } from 'react-redux';
 
-export default function Navbar() {
+export default function Navbar() 
+{
+  const cartProducts=useSelector(state=>state.cart.cart)
+  // console.log(cartProducts.length)
   return (
     <div className="flex justify-around items-center h-16 bg-blue-400">
       <div className="h-16 flex items-center">
@@ -40,16 +44,18 @@ export default function Navbar() {
           </Link>
         </div>
         <div>
-          <Link to="/">
-            <i className="fa-solid fa-cart-plus"></i>
+          <Link to="/cart">
+            <i className="fa-solid fa-cart-plus" >{cartProducts.length}</i>
           </Link>
         </div>
         <div>
-          <Link to="/">
+          <Link to="/wishlist">
             <CiHeart />
           </Link>
         </div>
       </div>
     </div>
   );
+
 }
+
